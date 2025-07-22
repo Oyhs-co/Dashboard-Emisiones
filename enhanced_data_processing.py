@@ -162,7 +162,7 @@ def get_gas_impact_info():
 
 if __name__ == "__main__":
     # Procesar datos con ponderaciones
-    file_path = "/home/ubuntu/upload/proyecto2.csv"
+    file_path = "data/proyecto2.csv"
     df_weighted = process_data_with_weighting(file_path)
     
     print("DataFrame con ponderaciones aplicadas:")

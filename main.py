@@ -62,7 +62,7 @@ def generate_pie_chart_by_classification(df, emission_col, title_suffix=""): # N
     fig = px.pie(emisiones_por_clasificacion.to_pandas(), values="Suma_Total_Emisiones", names="Clasificacion",
                  title=f"Distribución de Emisiones {title_suffix} por Clasificación",
                  hole=0.3) # Añade un agujero para un donut chart
-    fig.update_traces(textposition=\'inside\', textinfo=\'percent+label\')
+    fig.update_traces(textposition= \'inside\', textinfo=\'percent+label\')
     fig.update_layout(height=500)
     return fig
 
@@ -84,7 +84,7 @@ def main():
     st.markdown("### Análisis de la cantidad y gravedad de las emisiones y su impacto ambiental")
     
     # Cargar datos
-    file_path = "/home/ubuntu/upload/proyecto2.csv"
+    file_path = "data/proyecto2.csv"
     df = load_processed_data(file_path)
     
     # Sidebar para filtros
@@ -260,4 +260,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

@@ -25,15 +25,10 @@ Analizar la cantidad y gravedad de las emisiones, su impacto en la contaminació
 ## Estructura del Proyecto
 
 ```
-├── data_processing.py          # Procesamiento de datos original
 ├── enhanced_data_processing.py # Procesamiento de datos con ponderación de gases
-├── eda_notebook_generator.py   # Generador de notebook para EDA
-├── emissions_eda.ipynb         # Notebook de análisis exploratorio
-├── visualization.py            # Generación de visualizaciones con Plotly
-├── streamlit_dashboard.py      # Dashboard principal de Streamlit
+├── main.py      # Dashboard principal de Streamlit
 ├── requirements.txt            # Dependencias del proyecto
 ├── README.md                   # Documentación del proyecto
-└── deployment_guide.md         # Guía de despliegue
 ```
 
 ## Instalación
