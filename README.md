@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 2. Ejecutar el dashboard:
 ```bash
-streamlit run streamlit_dashboard.py
+streamlit run main.py
 ```
 
 ## Funcionalidades del Dashboard
@@ -103,14 +103,14 @@ Para desplegar en Streamlit Cloud:
 
 1. Subir el proyecto a un repositorio de GitHub
 2. Conectar con Streamlit Cloud
-3. Configurar el archivo principal como `streamlit_dashboard.py`
+3. Configurar el archivo principal como `main.py`
 4. Asegurar que `requirements.txt` esté en el directorio raíz
 
 ## Uso del Proyecto
 
 1. **Análisis Exploratorio**: Ejecutar el notebook `emissions_eda.ipynb`
 2. **Visualizaciones Estáticas**: Ejecutar `visualization.py` para generar gráficos HTML
-3. **Dashboard Interactivo**: Ejecutar `streamlit run streamlit_dashboard.py`
+3. **Dashboard Interactivo**: Ejecutar `streamlit run main.py`
 
 ## Contribuciones
 
@@ -122,5 +122,5 @@ Este proyecto está diseñado para ser extensible. Posibles mejoras:
 
 ## Licencia
 
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+Este proyecto es de código abierto y está disponible bajo la licencia GNU GPL-3.0 .
 
